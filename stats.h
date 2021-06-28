@@ -36,7 +36,7 @@
 
 /* Add Your Declarations and Function Comments here */ 
 
-unsigned int print_statistics(unsigned int test_int[], unsigned int len); 		
+void print_statistics(unsigned int test_int[], unsigned int len); 		
 
 //@param   unsigned int test_int[]	Array of Unsigned Integers
 //@param   unsigned int len 			Length of given Array
