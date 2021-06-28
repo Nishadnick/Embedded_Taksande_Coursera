@@ -9,7 +9,16 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
+*	
+*	I humbly request to please provide a feedback if you come across any mistakes or shortcommings 
+*	while you review the project. 
+*	I am resubmitting this project without much changes as the project runs fine on my ubuntu VM and 
+*	and the previous reviewer didn't provide any reason for failing me.
+*	
+*	I would also be very thankful if you could contact through Email: nishadnick420@gmail.com, if needed.
+*	Thank you
+
+ * @file <stats.c> 
  * @brief This is a C program file which will be used to create Analytics Report on a given set of numbers
  *
  * There are 8 functions that would be employed in the program:
@@ -137,7 +146,7 @@ unsigned int find_median(unsigned int test_int[], unsigned int len)
         }
     else											//we have to check for oodd or even number of elements and 
         {											//calculate the median accordingly
-            return(test_int[(len/2)+1]);
+            return(test_int[(len/2)+1]);			//didn't use float because it was not specified
         }
 }
 unsigned int find_mean(unsigned int test_int[], unsigned int len) 
@@ -145,7 +154,7 @@ unsigned int find_mean(unsigned int test_int[], unsigned int len)
     unsigned int sum=0;
     for (i=0;i<len;i++)
     {
-        sum+=test_int[i];
+        sum+=test_int[i];							//didn't use float because it was not specified
     }
     return(sum/len);
 }

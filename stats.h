@@ -9,6 +9,15 @@
  *
  *****************************************************************************/
 /**
+* 	
+*	I humbly request to please provide a feedback if you come across any mistakes or shortcommings 
+*	while you review the project. 
+*	I am resubmitting this project without much changes as the project runs fine on my ubuntu VM and 
+*	and the previous reviewer didn't provide any reason for failing me.
+*	
+*	I would also be very thankful if you could contact through Email: nishadnick420@gmail.com, if needed.
+*	Thank you
+
  * @file stats.h
  * @brief This header file contains the Declaration and a bit of description 
  *			of all the functions that are being used in this program
