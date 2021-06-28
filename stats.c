@@ -39,7 +39,7 @@
 
 //unsigned int ChartoInt(unsigned char test[]);
 
-unsigned int print_statistics(unsigned int test_int[], unsigned int len); 		//these are the Declaration of all the Functions
+void print_statistics(unsigned int test_int[], unsigned int len); 		//these are the Declaration of all the Functions
 unsigned int find_median(unsigned int test_int[], unsigned int len);			//that are used in this program
 unsigned int find_mean(unsigned int test_int[], unsigned int len) ;				//they are to be preprocessed before the main()
 unsigned int find_maximum(unsigned int test_int[], unsigned int len) ;
@@ -120,7 +120,7 @@ unsigned int print_array(unsigned int test_int[],unsigned int len)
     return 0;
 }
 
-unsigned int print_statistics(unsigned int test_int[], unsigned int len) 
+void print_statistics(unsigned int test_int[], unsigned int len) 
 
 {
     printf(" The Median = %d \n",find_median(test_int, len));

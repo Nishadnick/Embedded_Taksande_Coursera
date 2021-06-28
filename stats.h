@@ -13,6 +13,8 @@
  * @brief This header file contains the Declaration and a bit of description 
  *			of all the functions that are being used in this program
  *
+ *	Added the fuction declaration into the file
+ *
  * These are the following functions:
  * main() - The main entry point for your program
  * print_statistics() - A function that prints the statistics of an array including minimum, maximum, mean, and median.
@@ -22,6 +24,8 @@
  * find_maximum() -  Given an array of data and a length, returns the maximum
  * find_minimum() -  Given an array of data and a length, returns the minimum
  * sort_array()
+
+
  *
  * @author <Nishad T.>
  * @date <21-june-2021>
